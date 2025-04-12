@@ -12,4 +12,18 @@ function inchTofFeetTwo(inch) {
 }
 let resultOne = inchTofFeet(inch);
 let resultTwo = inchTofFeetTwo(inch);
-console.log(resultOne +' '+ 'ft'+' '+ resultTwo +' '+'inch');
+console.log(resultOne + ' ' + 'ft' + ' ' + resultTwo + ' ' + 'inch');
+
+
+
+/**
+ * Miles to km conversion
+ */
+
+let km = 50;
+function kmToMileConverter(km){
+    let kilometer =  km/1.609;
+    return kilometer.toFixed(2);
+}
+let result = kmToMileConverter(km);
+console.log(result);
